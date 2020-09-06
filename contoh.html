@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Contoh Asli</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+        *{
+            box-sizing:border-box;
+        }
+        body {
+            margin: 0;
+        }
+        .column {
+            float: left;
+            padding: 10px;
+        }
+        .column.side {
+            width: 25%;
+        }
+        .column.middle {
+            width: 75%;
+        }
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        @media screen and (max-width: 600px) {
+            .column.side, .column.middle {
+            width: 100%;
+            }
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+        }
+     
+    </style>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  </head>
+
+  <body>
+      
+      <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+          <img src="img\kelapa.png" height="30px" class="d-inline-block align-top" alt="krambus">
+          <a class="navbar-brand" href="#">&nbsp; &nbsp;Krambus Corp</a>
+          <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+              aria-expanded="false" aria-label="Toggle navigation"></button>
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="about.html" target="_blank"> &nbsp; About <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="baby.html" target="_blank"> &nbsp; Baby </span></a>
+                  </li>
+          
+                      </div>
+                  </li>
+              </ul>
+            
+          </div>
+      </nav>
+
+      <div class="row">
+          <div class="column side" style="text-align: center;">
+              <h1>Cabang</h1>
+              <p>Bumi<br>Saturnus<br>Uranus<br>Pluto</p>
+          </div>
+
+          <div class="column middle">
+            <h1>&nbsp;<strong><u>ABOUT KRAMBUS CORP</u></strong> </h1>
+            <p1>&nbsp;Krambus corp adalah perusahaan khayalan asal Kuvukiland <br>&nbsp;Berdiri sejak tahun 1969, dan telah berhasil mengimport krambus ke seluruh penjuru dunia</br></p1>
+            <br><p2>&nbsp;Beberapa negara eksportir Krambus Corp beserta jumlahnya : </br></p2>
+
+            <dl>
+                <dt>&nbsp;Brunei</dt>
+                <dd>&nbsp;Eksport 50 ton per tahun</dd>
+
+                <dt>&nbsp;Malay</dt>
+                <dd>&nbsp;Eksport 200 ton per tahun</dd>
+
+                <dt>&nbsp;Jepun</dt>
+                <dd>&nbsp;Eksport 500 ton per bulan</dd>
+
+                <dt>&nbsp;Zimbabwe</dt>
+                <dd>&nbsp;Eksport 969 ton per minggu</dd>
+            </dl>
+
+            <p1>&nbsp;Jika Anda berminat memesan silahkan klik form dibawah ini </p1><br>
+            <br>&nbsp;<label>Nama Produk</label> <br>
+            &nbsp;<input type="checkbox" name="produk" value="0">&nbsp; kelapa cukil <br>
+            &nbsp;<input type="checkbox" name="produk" value="1">&nbsp; kelapa bulat <br>
+            &nbsp;<input type="checkbox" name="produk" value="2">&nbsp; minyak kelapa <br>
+            &nbsp;<input type="checkbox" name="produk" value="3">&nbsp; kopra <br>
+            &nbsp;<input type="checkbox" name="produk" value="4">&nbsp; kelapa busuk <br>
+            &nbsp;<input type="checkbox" name="produk" value="5">&nbsp; santan murni <br>
+            &nbsp;<input type="checkbox" name="produk" value="6">&nbsp; santan campuran <br>
+
+            <br>&nbsp;<label>Jumlah</label><br>
+            &nbsp;<input type="radio" name="jumlah pesanan" value="0">&nbsp; 10 ton <br>
+            &nbsp;<input type="radio" name="jumlah pesanan" value="1">&nbsp; 20 ton <br>
+            &nbsp;<input type="radio" name="jumlah pesanan" value="2">&nbsp; 30 ton <br>
+            &nbsp;<input type="radio" name="jumlah pesanan" value="3">&nbsp; 50 ton <br>
+            &nbsp;<input type="radio" name="jumlah pesanan" value="4">&nbsp; 200 ton <br>
+            &nbsp;<input type="radio" name="jumlah pesanan" value="5">&nbsp; 500 ton <br>
+            &nbsp;<input type="radio" name="jumlah pesanan" value="6">&nbsp; 1000 ton <br>
+
+            <br>&nbsp;<input type="submit" value="Send Request">
+            <br>
+
+        </div>
+
+        <div class="footer">
+            <i class="fa fa-copyright" aria-hidden="true"></i>
+        </div>
+    </div>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
