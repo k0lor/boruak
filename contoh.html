@@ -6,6 +6,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <style>
+        .uk {
+            height: 500px;
+            width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
         *{
             box-sizing:border-box;
         }
@@ -42,18 +48,18 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+   
   </head>
 
   <body>
-      
+
       <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
           <img src="img\kelapa 2.png" height="30px" class="d-inline-block align-top" alt="krambus">
           <a class="navbar-brand" href="#">&nbsp; &nbsp;Krambus Corp</a>
           <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
               aria-expanded="false" aria-label="Toggle navigation"></button>
           <div class="collapse navbar-collapse" id="collapsibleNavId">
-              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                   <li class="nav-item active">
                       <a class="nav-link" href="about.html" target="_blank"> &nbsp; About <span class="sr-only">(current)</span></a>
                   </li>
@@ -67,6 +73,35 @@
             
           </div>
       </nav>
+
+      <br>
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <div class="uk">
+            <img src="img\kelapa1.jpg" class="d-block w-100" alt="kelapa">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="uk">
+            <img src="img\kopra.jpg" class="d-block w-100" alt="kopra">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="uk">
+            <img src="img\santan.jpg" class="d-block w-100" alt="santan">
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
 
       <div class="row">
           <div class="column side" style="text-align: center;">
